@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'hero';
+    src: url(fonts/ofont.ru_Hero.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'hero';
+}
+
+.stopwatch {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    min-height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 35px 3px rgb(45, 29, 70);
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 550px;
+    min-height: 150px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 150px;
+}
+
+.interval {
+    width: 70px;
+    margin: 0 20px;
+}
+
+.btn {
+    border: none;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'hero';
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 0 25px;
+}
